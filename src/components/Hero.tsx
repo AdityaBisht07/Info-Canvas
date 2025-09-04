@@ -1,8 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FiArrowDown, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { FiArrowDown, FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi'
 import { personalInfo } from '@/utils/data'
+import { downloadCV } from '@/utils/download'
 
 export default function Hero() {
   const scrollToAbout = () => {
@@ -103,6 +104,16 @@ export default function Hero() {
               className="px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 interactive"
             >
               View Projects
+            </motion.button>
+            
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={downloadCV}
+              className="px-8 py-4 bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 interactive flex items-center gap-2"
+            >
+              <FiDownload size={20} />
+              Download CV
             </motion.button>
             
             <motion.button

@@ -37,23 +37,23 @@ export interface Education {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Database Management System",
-    description: "A comprehensive database management system with advanced query optimization and data analytics capabilities.",
+    title: "Collaborative Whiteboard (Collab-Board)",
+    description: "A real-time collaborative whiteboard enabling users to draw, add shapes, and interact on an infinite canvas.",
     image: "/images/project1.jpg",
-    technologies: ["Java", "MySQL", "PostgreSQL", "Query Optimization"],
-    githubUrl: "https://github.com/AdityaBisht07/database-system",
-    liveUrl: "https://database-system.example.com",
+    technologies: ["Next.js", "TailWind CSS", "Node.js", "MongoDB", "Redis", "Vercel"],
+    githubUrl: "https://github.com/AdityaBisht07/",
+    liveUrl: "https://collab-board-six.vercel.app/",
     category: "backend"
   },
   {
     id: 2,
-    title: "Algorithm Visualizer",
-    description: "A Java-based application for visualizing various algorithms and data structures with step-by-step execution.",
+    title: "Route F5",
+    description: "A student-focused platform aimed at simplifying career planning, academic decision-making, and peer-to-peer community interaction",
     image: "/images/project2.jpg",
-    technologies: ["Java", "JavaFX", "Algorithms", "Data Structures"],
-    githubUrl: "https://github.com/AdityaBisht07/algorithm-visualizer",
+    technologies: ["Next.js", "TailWind CSS", "MongoDB", "A.I. Augmentation"],
+    githubUrl: "https://github.com/AdityaBisht07/Route-F5",
     liveUrl: "https://algorithm-visualizer.example.com",
-    category: "backend"
+    category: "fullstack"
   }
 ]
 

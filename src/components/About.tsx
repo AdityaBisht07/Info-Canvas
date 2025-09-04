@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import { FiDownload, FiMapPin, FiMail, FiPhone, FiGithub, FiLinkedin } from 'react-icons/fi'
+import { FiMapPin, FiMail, FiPhone, FiGithub, FiLinkedin } from 'react-icons/fi'
 import { personalInfo } from '@/utils/data'
 
 export default function About() {
@@ -130,16 +130,6 @@ export default function About() {
                 <FiLinkedin size={20} />
               </motion.a>
             </div>
-
-            {/* Download CV Button */}
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="mt-6 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center space-x-2 interactive"
-            >
-              <FiDownload size={20} />
-              <span>Download CV</span>
-            </motion.button>
           </motion.div>
         </div>
 
